@@ -4,7 +4,6 @@
   "description": "The Simplest Scroll Area Component with custom scrollbar for React Js",
   "main": "./dist/react-scrollbar.js",
   "scripts": {
-    "prepublish": "npm run lint && npm run build && npm run getstyles",
     "getstyles": "cp src/style_default.scss doc/examples && node-sass src/style_default.scss --output doc/examples",
     "start": "webpack-dev-server --inline --hot --config webpack.dev.config.js",
     "build": "webpack --config webpack.publish.config.js",
